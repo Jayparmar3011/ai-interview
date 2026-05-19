@@ -71,11 +71,6 @@ export default function CandidatePage() {
             </span>
           ))}
         </div>
-
-        <div className="border-2 border-dashed border-slate-700 rounded-xl p-6 text-center text-slate-400">
-          Upload Resume (UI only)
-        </div>
-
         <button
           disabled={!canContinue}
           onClick={handleContinue}
